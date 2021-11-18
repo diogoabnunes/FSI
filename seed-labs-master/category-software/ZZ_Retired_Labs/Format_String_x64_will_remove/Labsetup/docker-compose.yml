@@ -1,0 +1,10 @@
+version: "3"
+  
+services:
+    victim:
+        build: ./image_ubuntu
+        image: seed-image-ubuntu-server
+        container_name: server-fmt-string
+        tty: true
+        network_mode: bridge
+

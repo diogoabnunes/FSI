@@ -1,0 +1,23 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%  Copyright by Wenliang Du.                                       %%
+%%  This work is licensed under the Creative Commons                %%
+%%  Attribution-NonCommercial-ShareAlike 4.0 International License. %%
+%%  To view a copy of this license, visit                           %%
+%%  http://creativecommons.org/licenses/by-nc-sa/4.0/.              %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+The above \urlisorurlsare is only accessible from inside of the virtual machine, because we
+have modified the \texttt{/etc/hosts} file to map the domain
+name of each URL to the IP address ({\tt 10.9.0.5}) 
+
+You may map any domain name to a particular IP address using
+\texttt{/etc/hosts}. For example, you can map
+\url{http://www.example.com} to the local IP address by appending the
+following entry to \texttt{/etc/hosts}:
+
+\begin{lstlisting}[backgroundcolor=]
+   127.0.0.1     www.example.com
+\end{lstlisting}
+
+
+
