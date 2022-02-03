@@ -16,14 +16,14 @@
 
 Criptografia Moderna:
 1. Definições precisas e rigorosas de segurança: modelos matemáticos da realidade.
-2. Quando a segurança de uma construção criptográfica se baseia num pressuposto que não conseguimos provas.
+2. Quando a segurança de uma construção criptográfica se baseia num pressuposto que não conseguimos provar.
 3. As construções criptográficas devem ser justificadas formalmente.
 
 ### 2.2. Segurança da Informação
 
 - Proteção da segurança da informação:
   - em trânsito: A => B, online/síncrono (ex.: HTTPS);
-  - em trânsito: A => B, offline/assíncrono (ex.: email, Whatsapp, ...);
+  - em trânsito: A => B, offline/assíncrono (ex.: email, WhatsApp, ...);
   - em repouso: A => A (ex.: Disk Encryption).
 - Confidencialidade
   - informação acessível apenas a emissor A e recetor B (ou A);
@@ -146,7 +146,7 @@ Usar:
 - Encrypt and Mac (SSH)
   - Calcular o criptograma sobre a mensagem; c = E(k1,m)
   - Calcular a tag diretamente sobre a mensagem; t = MAC(m,k2)
-  - Transmitir o criptograma e o MAC.
+  - Transmitir o criptograma e a tag.
 - Mac Then Encrypt (SSL)
   - Calcular a tag sobre a mensagem; t = MAC(m,k2)
   - Concatenar tag sobre a mensagem; m -> m || t
@@ -191,7 +191,7 @@ Na análise teórica de cripto geralmente assume-se aleatoriedade perfeita:
 
 Na prática gerar aleatoriedade é difícil:
 - fontes de entropia:
-  - medição de strins de bits a partir de processos físicos;
+  - medição de strings de bits a partir de processos físicos;
   - temperatura, atividade do processador, atividade do utilizador.
 - geradores pseudo-aleatórios (PRGs):
   - estado: inicializado e atualizado periodicamente com fontes de entropia;
@@ -241,7 +241,7 @@ Limitações com a criptografia simétrica:
 
 ### 2.10. Cifras de Chave Pública
 
-- E, D: algoritmos (encryot, decrypt) públicos;
+- E, D: algoritmos (encrypt, decrypt) públicos;
 - pk: chave pública para cifrar;
 - sk: chave secreta para decifrar.
 
@@ -317,7 +317,7 @@ Cenário Email Seguro:
 
 Solução: Sign-Then-Encrypt:
 - Alice assina mensagem;
-- Alice cifra mensagem com chav epública do Bob (cifra híbrida).
+- Alice cifra mensagem com chave pública do Bob (cifra híbrida).
 - Garante não repúdio, confidencialidade e autenticidade?
   - Se mensagem assinada incluir a informação de que Bob era o destinatário, sim;
   - Caso contrário, Alice pode ter enviado para Carol que re-cifrou para Bob.

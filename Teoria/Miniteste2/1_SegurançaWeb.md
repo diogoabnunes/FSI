@@ -102,7 +102,7 @@ Cross-Origin Resource Sharing (CORS): permite relaxar os pedidos cross-origin qu
   - Solução:
     - Nunca criar comandos SQL dinamicamente como strings:
     - Usar sempre instrumentos fornecidos pelas próprias linguagens de programação e/ou software stacks:
-      - comandos parametrizados: comandos estáticos no código com placeholders
+      - comandos parametrizados: comandos estáticos no código com placeholders;
       - bibliotecas ORM: oferece abstração independente de SQL e do backend de BD. Esta implementação oferece mecanismos de sanitização de inputs (quando oferece...).
 
 - Cross Site Scripting (XSS): Injeção de código do lado do cliente:

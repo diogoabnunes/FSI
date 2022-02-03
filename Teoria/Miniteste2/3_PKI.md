@@ -34,7 +34,7 @@ Problemas na prática:
 - #1 e #2: Tecnologia: Certificados;
 - #3 e #4: PKI: Procedimentos/Regulamentos.
 
-Os certificados de chhave pública usam assinaturas digitais para resolver os pontos #1 e #2:
+Os certificados de chave pública usam assinaturas digitais para resolver os pontos #1 e #2:
 - TTP: Autoridade de Certificação (CA);
 - Alice prova a CA que possui pk:
   - Assinando um pedido de certificado que contém pk usando a chave secreta (PKCS#11);
@@ -97,11 +97,7 @@ A PKI resolve os pontos 4 e 5.
 ### 3.4. Funcionamento e Gestão
 
 PKI: Tudo o que é necessário para assegurar que:
-- O utilizador de um certificado (end entity) recebe garantia;
-- Dada por autoridade de certificação de confiança;
-- De que uma chave pública pertence a outra entidade;
-- E pode ser utilizada para um determinado fim;
-- Com responsabilidades/obrigações bem definidas para todos.
+- O utilizador de um certificado (end entity) recebe garantia dada por autoridade de certificação de confiança de que uma chave pública pertence a outra entidade, e pode ser utilizada para um determinado fim com responsabilidades/obrigações bem definidas para todos.
 
 Como os certificados circulam na rede?
 - Vários protocolos especificam como isso pode ser feito:

@@ -5,7 +5,7 @@
 Autenticação de origem de mensagens (resumos anteriores):
 - destinatário tem garantia que mensagem teve origem em emissor específico (assinaturas, MACs);
 - nos canais seguros estende-se a várias mensagens/pacotes e à sequência completa de mensagens enviadas;
-- não existem um requisito de tempo: mensagem enviada agora/recentemente.
+- não existe um requisito de tempo: mensagem enviada agora/recentemente.
 
 Autenticação de entidades (estes resumos):
 - Bob tem a certeza que Alice participou ativamente/agora num passo processual;
@@ -57,7 +57,7 @@ Algo que se sabe: um segredo que apenas um humano específico conhece:
 
 ### 4.3. Passwords
 
-Solução legacy: náo conseguimos ainda evoluir para melhor.
+Solução legacy: não conseguimos ainda evoluir para melhor.
 - Vantagem: simples: Alice prova que conhece password fornecendo-a ao sistema.
 - Problemas: 
   - Um atacante passivo pode passar a conhecer a password:
@@ -280,7 +280,7 @@ Precisão:
   - taxa de falsos positivos (FAR): probabilidade de aceitar indevidamente;
   - taxa de falsos negativos (FRR): probabilidade de rejeitar indevidamente.
 - FAR baixo => parece desejável;
-  - mais difícil de atacar, não aaceitamos "o atacante", mas:
+  - mais difícil de atacar, não aceitamos "o atacante", mas:
   - sempre associado a FRR alto, o que prejudica a usabilidade;
   - muitas vezes calibra-se para o Equal Error Rate Point: FAR = FRR.
 
@@ -307,7 +307,7 @@ Sessão: sequência de pedidos/resposta a um (ou mais) sites/aplicações:
 HTTP Auth na pré-história:
 - Servidores HTTP mantinham ficheiros de (hash de) passwords em pastas;
 - Resposta do servidor incluía pedido de autenticação por password;
-- Browser mostra formmulário;
+- Browser mostra formulário;
 - Browser envia login/password (em base64) em todos os pedidos subsequentes para a mesma pasta;
 - Não utilizar hoje em dia;
 - Log-out implica fechar o browser;

@@ -2,14 +2,14 @@
 
 ## 5. Segurança de Redes
 
-A camada tecnológica de software e de redes não foi criada para lidar com segurança. Estamos a trabalhar sobre uma tecnologia antiga em que comtinuamos a confiar, tem poucas alterações, e oferece do ponto de vista da segurança, muito poucas garantias.
+A camada tecnológica de software e de redes não foi criada para lidar com segurança. Estamos a trabalhar sobre uma tecnologia antiga em que continuamos a confiar, tem poucas alterações, e oferece do ponto de vista da segurança, muito poucas garantias.
 
 Ideia original:
-- rede simples/básica onde cad máquina/host tem um endereço IP;
+- rede simples/básica onde cada máquina/host tem um endereço IP;
 - complexidade nos pontos terminais (endpoints);
 - funciona como um correio: entrga de pacotes != ligações físicas computadas.
-- Para communicar precisamos de regras = protocolos:
-  - sintaxe: especificação: especificação da estrutura das mensagens, ordem, formato;
+- Para comunicar precisamos de regras = protocolos:
+  - sintaxe: especificação da estrutura das mensagens, ordem, formato;
   - semântica: qual o significado de uma mensagem, ação a desencadear;
   - normas/especificações: todos partilham as mesmas regras.
 
@@ -27,7 +27,7 @@ Ethernet: Link Layer mais comum:
 
 - Comunicação sem "ligação":
   - Best-effort: não há garantias de entrega;
-  - Não há tentaticas de recuperação;
+  - Não há tentativas de recuperação;
   - Pacotes podem perder-se, ser permutados, repetidos, ...
 - Pacotes podem mesmo ser fragmentados;
 - Estrutura de endereços hierárquica (IPv4 = 32 bits, IPV6 = 128 bits):
@@ -253,7 +253,7 @@ Políticas de Controlo de Acessos:
   - default deny => permitir apenas alguns acessos comuns a todos os sistemas;
     - Escolha mais conservadora, proteção por omissão;
     - Instabilidade inicial;
-    - Começar por esta escolhae adicionar exceções.
+    - Começar por esta escolha e adicionar exceções.
 
 Filtragem de Pacotes: cada pacote é verificado relativamente a regras => forward/drop:
 - utiliza-se informação das camadas de rede e de transporte: source/destination IP, source/destination port, flags;
