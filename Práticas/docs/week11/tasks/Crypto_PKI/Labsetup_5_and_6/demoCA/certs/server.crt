@@ -1,0 +1,103 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 4097 (0x1001)
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=PT, ST=Some-State, O=FEUP, CN=Diogo Nunes
+        Validity
+            Not Before: Jan 21 12:07:22 2022 GMT
+            Not After : Jan 19 12:07:22 2032 GMT
+        Subject: C=PT, O=FEUP, CN=Diogo Nunes
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                RSA Public-Key: (2048 bit)
+                Modulus:
+                    00:b9:32:42:57:d8:f4:7a:7e:20:b7:65:81:38:2f:
+                    ea:7c:76:99:8f:de:4e:4d:46:0a:82:8d:fb:42:40:
+                    61:8b:e9:3d:fe:13:09:75:1b:78:06:fd:cc:30:ec:
+                    75:50:70:e7:ee:60:dd:ee:0a:f1:f7:23:3f:61:80:
+                    18:92:fc:46:80:82:5d:46:38:4d:9c:5a:6d:05:6b:
+                    0c:b5:92:89:63:90:4a:e6:f6:fc:3d:4b:b4:0a:4f:
+                    5e:cb:93:e7:bc:63:7a:d3:0c:99:c2:31:d5:ba:99:
+                    04:3b:db:da:e0:32:d7:ad:cd:75:7f:58:cf:ef:d1:
+                    fc:99:09:8e:fa:69:bf:9f:ea:0a:97:e2:63:a5:53:
+                    d6:21:5b:6f:83:ea:70:ee:e4:ff:5b:b3:cd:ac:51:
+                    ea:27:58:43:f8:bd:be:71:37:bc:be:79:00:e1:0f:
+                    40:fc:85:e7:71:67:28:18:9f:cb:c3:d0:73:84:4c:
+                    55:03:9f:02:25:ca:95:39:43:0d:58:85:3a:80:8f:
+                    7d:d4:10:bf:d8:33:d2:59:7d:9e:aa:c6:85:31:70:
+                    fa:fc:03:f5:3c:2e:9c:70:cd:7d:65:06:6f:29:89:
+                    ca:34:9c:b4:ca:fa:e2:c1:06:38:b1:d4:98:7a:be:
+                    8f:ff:36:e3:95:ae:3b:1c:84:c1:cd:1f:81:97:1d:
+                    a2:cb
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                OpenSSL Generated Certificate
+            X509v3 Subject Key Identifier: 
+                14:EF:05:75:B9:3A:CE:98:21:80:66:96:17:00:CE:C0:9C:52:00:DC
+            X509v3 Authority Key Identifier: 
+                keyid:44:B3:FA:32:68:71:DF:AA:95:52:82:33:E9:C9:80:EB:88:A0:77:6E
+
+            X509v3 Subject Alternative Name: 
+                DNS:www.diogonunes2022.com, DNS:www.diogonunes2022A.com, DNS:www.diogonunes2022B.com
+    Signature Algorithm: sha256WithRSAEncryption
+         4f:e3:a7:fb:25:24:d6:ac:83:38:3d:5e:50:8f:ca:1d:f6:75:
+         15:ce:2c:69:7d:88:35:bf:0e:d6:d0:40:df:f3:69:83:a3:b4:
+         58:e5:bc:ad:ea:b7:f3:9b:8c:3b:22:34:56:e8:9c:d4:62:be:
+         4b:e9:a2:10:fa:c9:be:7b:69:ca:b5:46:6d:37:46:41:3d:64:
+         18:7f:f0:8e:ce:c9:f7:fc:af:17:ba:4a:ab:ac:33:72:88:3f:
+         bb:95:0f:ea:1c:b8:7c:44:63:da:8c:8f:73:66:7c:8c:d8:11:
+         f9:2b:c1:39:03:25:57:1b:4c:c1:9d:c8:d9:e1:c7:e6:25:0f:
+         24:95:17:9c:47:b9:da:90:48:a3:03:20:5f:5c:4e:eb:27:92:
+         27:97:18:5d:4e:5a:1b:af:88:bc:dc:e8:fb:c6:4c:95:16:2f:
+         8f:30:5b:50:9b:21:26:9c:3a:7e:62:1d:36:25:32:5e:d6:2b:
+         fe:d3:2d:ac:54:58:0d:d0:c2:d2:69:c0:51:61:3d:4b:ca:9d:
+         a5:16:9f:95:ee:be:8a:3d:89:5a:2d:fd:e1:60:e9:46:62:ce:
+         ff:b7:f6:a5:0b:20:07:06:f8:e5:28:a2:e4:a7:6f:11:b8:78:
+         05:29:cc:74:ed:94:90:1c:0e:f5:3d:a8:5c:d8:8b:60:9d:87:
+         f5:e8:fd:59:89:de:8d:9d:6e:45:0f:db:18:0a:32:0e:1d:d4:
+         81:2b:72:b5:a5:03:cf:7a:b8:4b:ea:5b:3a:55:32:a0:b7:92:
+         22:c9:49:d7:e0:7c:a0:7f:38:fc:85:94:be:4b:93:00:6f:66:
+         a4:af:dc:80:fe:31:fe:ee:c5:06:92:06:4c:f4:ec:6b:5e:8b:
+         e7:c8:3e:b1:e9:25:02:06:b0:f1:f7:79:cf:02:e2:86:54:56:
+         ef:11:d7:12:11:62:2b:bc:7e:c2:96:40:a7:3b:69:97:03:dc:
+         49:61:93:63:7c:5f:0b:53:15:38:69:f8:a8:70:41:13:27:31:
+         1a:3e:2d:26:4c:61:9d:f5:08:e7:ea:7e:39:eb:c8:09:83:47:
+         e4:b7:a4:94:4f:4e:2b:f3:af:a0:6c:db:e0:3c:69:9b:06:34:
+         11:1a:96:e5:c2:93:a3:ff:f7:61:ec:d0:6b:6f:46:c0:48:35:
+         ae:c9:3d:18:4c:92:d4:42:69:2b:23:f0:cb:e4:6a:29:99:41:
+         07:15:6f:f1:5c:55:ca:e9:d0:1a:53:2a:fe:64:11:7e:23:e6:
+         bb:bf:07:30:68:fa:08:05:d6:3d:93:b8:bf:0f:c5:a2:65:a6:
+         1b:d4:08:a6:99:c6:1b:3e:19:c3:8a:f4:8c:16:3a:8a:fb:78:
+         d8:1c:e1:22:06:4b:65:60
+-----BEGIN CERTIFICATE-----
+MIIExzCCAq+gAwIBAgICEAEwDQYJKoZIhvcNAQELBQAwRzELMAkGA1UEBhMCUFQx
+EzARBgNVBAgMClNvbWUtU3RhdGUxDTALBgNVBAoMBEZFVVAxFDASBgNVBAMMC0Rp
+b2dvIE51bmVzMB4XDTIyMDEyMTEyMDcyMloXDTMyMDExOTEyMDcyMlowMjELMAkG
+A1UEBhMCUFQxDTALBgNVBAoMBEZFVVAxFDASBgNVBAMMC0Rpb2dvIE51bmVzMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuTJCV9j0en4gt2WBOC/qfHaZ
+j95OTUYKgo37QkBhi+k9/hMJdRt4Bv3MMOx1UHDn7mDd7grx9yM/YYAYkvxGgIJd
+RjhNnFptBWsMtZKJY5BK5vb8PUu0Ck9ey5PnvGN60wyZwjHVupkEO9va4DLXrc11
+f1jP79H8mQmO+mm/n+oKl+JjpVPWIVtvg+pw7uT/W7PNrFHqJ1hD+L2+cTe8vnkA
+4Q9A/IXncWcoGJ/Lw9BzhExVA58CJcqVOUMNWIU6gI991BC/2DPSWX2eqsaFMXD6
+/AP1PC6ccM19ZQZvKYnKNJy0yvriwQY4sdSYer6P/zbjla47HITBzR+Blx2iywID
+AQABo4HRMIHOMAkGA1UdEwQCMAAwLAYJYIZIAYb4QgENBB8WHU9wZW5TU0wgR2Vu
+ZXJhdGVkIENlcnRpZmljYXRlMB0GA1UdDgQWBBQU7wV1uTrOmCGAZpYXAM7AnFIA
+3DAfBgNVHSMEGDAWgBREs/oyaHHfqpVSgjPpyYDriKB3bjBTBgNVHREETDBKghZ3
+d3cuZGlvZ29udW5lczIwMjIuY29tghd3d3cuZGlvZ29udW5lczIwMjJBLmNvbYIX
+d3d3LmRpb2dvbnVuZXMyMDIyQi5jb20wDQYJKoZIhvcNAQELBQADggIBAE/jp/sl
+JNasgzg9XlCPyh32dRXOLGl9iDW/DtbQQN/zaYOjtFjlvK3qt/ObjDsiNFbonNRi
+vkvpohD6yb57acq1Rm03RkE9ZBh/8I7Oyff8rxe6SqusM3KIP7uVD+ocuHxEY9qM
+j3NmfIzYEfkrwTkDJVcbTMGdyNnhx+YlDySVF5xHudqQSKMDIF9cTusnkieXGF1O
+WhuviLzc6PvGTJUWL48wW1CbISacOn5iHTYlMl7WK/7TLaxUWA3QwtJpwFFhPUvK
+naUWn5Xuvoo9iVot/eFg6UZizv+39qULIAcG+OUoouSnbxG4eAUpzHTtlJAcDvU9
+qFzYi2Cdh/Xo/VmJ3o2dbkUP2xgKMg4d1IErcrWlA896uEvqWzpVMqC3kiLJSdfg
+fKB/OPyFlL5LkwBvZqSv3ID+Mf7uxQaSBkz07Gtei+fIPrHpJQIGsPH3ec8C4oZU
+Vu8R1xIRYiu8fsKWQKc7aZcD3Elhk2N8XwtTFThp+KhwQRMnMRo+LSZMYZ31COfq
+fjnryAmDR+S3pJRPTivzr6Bs2+A8aZsGNBEaluXCk6P/92Hs0GtvRsBINa7JPRhM
+ktRCaSsj8MvkaimZQQcVb/FcVcrp0BpTKv5kEX4j5ru/BzBo+ggF1j2TuL8PxaJl
+phvUCKaZxhs+GcOK9IwWOor7eNgc4SIGS2Vg
+-----END CERTIFICATE-----
